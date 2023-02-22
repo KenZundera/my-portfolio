@@ -105,12 +105,13 @@ section {
   width:  9rem;
   padding:  .5rem;
   align-items:  center  ;
-  margin-right:  3rem;
+  margin-right:  1.5rem;
+  margin-left: 1.5rem;
 }
 
-.skills:last-child  {
+/*.skills:last-child  {
   margin-right:  0px;
-}
+}*/
 
 .skills img {
   width: 5rem;
