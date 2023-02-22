@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap v5.3 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/92333b2848.js" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="icon" href="./assets/img/favicon.png">
+  <title>Portfolio | Suken M Fauzan</title>
+
+  <style> 
+    .carousel-control-prev {
+      width: 5%;
+    } 
+    .carousel-control-next {
+      width: 5%;
+    }
+  </style>
+</head>
+<body data-bs-theme="dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-subtle fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ken.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#job-train">Job Training</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#myskill">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Profile -->
+  <section id="profile" class="profile">
+    <div class="container text-center">
+      <div class="row justify-content-center ">
+        <div class="col-md-4 m-2">
+          <img src="./assets/img/profil.jpg" alt="profile" class="img-fluid rounded-3 w-75 h-100">
+        </div>
+      </div>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <h1 class="display-4">Suken Muchammad Fauzan</h1>
+      <p class="lead">Student | Web Developer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,160C672,128,768,96,864,90.7C960,85,1056,107,1152,112C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </div>
+    <!-- Akhir Jumbotron -->
+  </section>
+  <!-- Akhir Profile -->
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">About Me</h1>
+        </div>
+      </div>
+      <div class="row mt-3 justify-content-center text-center fs-6">
+        <div class="col-md-5">
+          <p>Halo, Nama saya Suken Muchammad Fauzan. Saya saat ini bersekolah di SMKN 71 Jakarta kelas XII RPL 3. Saya biasa dipanggil Suken, saya mempunyai keahlian Web Development. Saya lahir di Jakarta, 23 September 2005. Saya tinggal di Jl. H Kamin 1 No. 91 RT.008/009, Pondok Gede, Jatimakmur, Bekasi.</p>
+        </div>
+        <div class="col-md-5">
+          <p>Riwayat pendidikan saya berawal dari TKIT IQRO', lalu saya melanjutkan pendidikan di SDIT IQRO', lalu saya melanjutkan pendidikan saya lagi di MTsN 42 Jakarta, lalu saya masuk ke SMK yaitu, SMKN 71 Jakarta di Cakung, saya mengambil Jurusan Rekayasa Perangkat Lunak.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img src="./assets/img/iqro.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <p class="card-text text-center fs-5">SDIT IQRO'</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img src="./assets/img/mts42.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <p class="card-text text-center fs-5">MTsN 42 Jakarta.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img src="./assets/img/smk71.jpg" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <p class="card-text text-center fs-5">SMKN 71 Jakarta.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2d3237" fill-opacity="1" d="M0,320L60,298.7C120,277,240,235,360,224C480,213,600,235,720,213.3C840,192,960,128,1080,122.7C1200,117,1320,171,1380,197.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+  </section>
+  <!-- Akhir About -->
+
+  <section class="myskill" id="myskill">
+    <div class="col text-center">
+      <h2>My Skills</h2>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row justify-content-center mb-5">
+
+        <div class="d-flex card skills">
+          <img src="./assets/img/html.png" class="card-img-top text-center" alt="Project 1" />
+          <div class="fw-bold card-text mt-2">HTML 5</div>
+        </div>
+
+        
+        <div class="d-flex card skills">
+          <img src="./assets/img/css.png" class="card-img-top" alt="Project 1" />
+          <div class="fw-bold card-text mt-2">CSS 3</div>
+        </div>
+
+        
+        <div class="d-flex card skills">
+          <img src="./assets/img/js.png" class="card-img-top" alt="Project 1" />
+          <div class="fw-bold card-text mt-2">JavaScript</div>
+        </div>
+
+        <div class="d-flex card skills">
+          <img src="./assets/img/php.png" class="card-img-top" alt="Project 1" />
+          <div class="fw-bold card-text mt-2">PHP</div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+
+        <div class="d-flex card skills">
+          <img src="./assets/img/bootstrap5.png" class="card-img-top" alt="Project 1" />
+          <div class="fw-bold card-text mt-2">Bootstrap</div>
+        </div>
+
+        <div class="d-flex card skills">
+          <img src="./assets/img/github.png" class="card-img-top" alt="Project 1" />
+          <div class="fw-bold card-text mt-2">Github</div>
+        </div>
+
+        <div class="d-flex card skills">
+          <img src="./assets/img/codeigniter.png" class="card-img-top" alt="Project 1" />
+          <div class="fw-bold card-text mt-2">CodeIgniter</div>
+        </div>
+
+        <div class="d-flex card skills">
+          <img src="./assets/img/java.png" class="card-img-top" alt="Project 1" />
+          <div class="fw-bold card-text mt-2">Java</div>
+        </div>
+      </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+      fill="#212529"
+      fill-opac ity="1"
+      d="M0,224L48,234.7C96,245,192,267,288,245.3C384,224,480,160,576,154.7C672,149,768,203,864,229.3C960,256,1056,256,1152,229.3C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+  </section>
+
+  <!-- Projects -->
+  <section class="project" id="project">
+    <div class="col text-center ">
+      <h2>My Projects</h2>
+    </div>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner p-5">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/perpustakaanPHP.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Web Perpustakaan yang dibuat dengan HTML, CSS, JS dan PHP. <br></p>
+                    <a href="https://github.com/KenZundera/Prausk_SukenMFauzan" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/epic-rpg.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Projek web tugas akhir yang dibuat dengan HTML, CSS, JS dan PHP.</p>
+                    <a href="https://github.com/KenZundera/TA_RPL3_SukenMFauzan" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/adminlte.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Web template AdminLTE V3 dengan HTML, CSS, JS dan PHP.</p>
+                    <a href="https://github.com/KenZundera/AdminLTE-3.2.0" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/codeigniter4.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Web list komik dengan menggunakan framework CodeIgniter v4.</p>
+                    <a href="https://github.com/KenZundera/ci4app" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/sekolah.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Web landing page sekolah dengan HTML dan CSS Native.</p>
+                    <a href="https://kenzundera.github.io/SMK-Alpha" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/Bootstrap.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Web design portfolio dengan framework Bootstrap versi 5.</p>
+                    <a href="https://kenzundera.github.io/Portfolio-Bootstrap-V5/portfolio-bootstrap5/" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row mb-3">
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/WebPerpustakaan.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Web desain perpustakaan dengan HTML dan CSS Native.</p>
+                    <a href="https://kenzundera.github.io/Perpustakaan-SMK-Alpha/" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/Materialize.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Web design perushaan dengan framework Materialize.</p>
+                    <a href="" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/webyt.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Web design layouting dengan layout flex kanan dan kiri.</p>
+                    <a href="" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/lpages.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Website album Yoasobi dengan audio dari YouTube dibuat dengan HTML dan CSS.</p>
+                    <a href="https://kenzundera.github.io/tugas1-smt2/" target="_blank">Klik Disini</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/img/coming-soon.PNG" class="card-img-top" alt="Project 1" />
+                  <div class="card-body">
+                    <p class="card-text">Projek website yang akan saya buat dilain waktu ...</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev justify-content-start mx-2" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next justify-content-end ms-2" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+      fill="#2d3237"
+      fill-opacity="1"
+      d="M0,224L48,234.7C96,245,192,267,288,245.3C384,224,480,160,576,154.7C672,149,768,203,864,229.3C960,256,1056,256,1152,229.3C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+  </section>
+  <!-- Akhir Projects -->
+
+  <!-- Job Training -->
+  <section id="job-train" class="job-train">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Job Training</h1>
+        </div>
+      </div>
+      <div class="row mt-3 justify-content-center text-center fs-6">
+        <div class="col-md-8">
+          <p>Saya melakukan Praktik Kerja Lapangan di <b>Dinas Pendidikan di Bagian PUSDATIKOMDIK ( Pusat Data dan TIK Pendidikan )</b>, yang saya lakukan di PUSDATIKOMDIK adalah membuat sebuah website untuk mengirim Email ke banyak orang atau disebut juga dengan Email Blast. Berikut gambar <b>Project web Email Blast</b>.</p>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="./assets/img/loginPage.PNG" class="card-img-top" alt="Project 1"/>
+              <div class="card-body">
+                <p class="card-text">Halaman Login dari Web Application Email Blast.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="./assets/img/dashboardPage.PNG" class="card-img-top" alt="Project 1"/>
+              <div class="card-body">
+                <p class="card-text">Halaman Dashboard atau Home dari Web Application Email Blast.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="./assets/img/kontakPage.PNG" class="card-img-top" alt="Project 1"/>
+              <div class="card-body">
+                <p class="card-text">Halaman Kontak Email dari Web Application Email Blast.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="./assets/img/pesanPage.PNG" class="card-img-top" alt="Project 1"/>
+              <div class="card-body">
+                <p class="card-text">Halaman Riwayat Pesan dari Web Application Email Blast.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="./assets/img/penggunaPage.PNG" class="card-img-top" alt="Project 1"/>
+              <div class="card-body">
+                <p class="card-text">Halaman List Pengguna dari Web Application Email Blast.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,213.3C384,224,480,192,576,176C672,160,768,160,864,154.7C960,149,1056,139,1152,144C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </section>
+  <!-- Akhir Job Training -->
+
+  <!-- Contact -->
+  <section class="contacts" id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-around mb-4 mt-1 circle-med">
+          <div class="social">
+            <a href="https://github.com/KenZundera" class="fab fa-github fa-lg" target="_blank"></a>
+          </div>
+
+          <div class="social">
+            <a href="https://www.instagram.com/ken.fauzan/" class="fab fa-instagram fa-lg" target="_blank"></a>
+          </div>
+
+          <div class="social">
+            <a href="https://www.facebook.com/sukenmuchammad.fauzan/" class="fab fa-facebook fa-lg" target="_blank"></a>
+          </div>
+
+          <div class="social">
+            <a href="https://www.youtube.com/@ken.fauzan/"  class="fab fa-youtube" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <!-- untuk Alert -->
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <form name="zundera-contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" name="Nama" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email </label>
+              <input type="email" class="form-control" id="email" aria-describedby="email" name="Email" />
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3" name="Pesan"></textarea>
+            </div>
+            <div class="mb-3 form-check"></div>
+            <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+            <!-- Button Loading -->
+            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+      fill="#1A1D20"
+      fill-opacity="1"
+      d="M0,224L34.3,218.7C68.6,213,137,203,206,202.7C274.3,203,343,213,411,234.7C480,256,549,288,617,261.3C685.7,235,754,149,823,144C891.4,139,960,213,1029,229.3C1097.1,245,1166,203,1234,197.3C1302.9,192,1371,224,1406,240L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+      ></path>
+    </svg>
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- Footer -->
+  <section class="footer bg-dark-subtle text-white text-center pb-5" id="footer">
+    <footer class="mt-5">
+      <p>Created with <i class="bi bi-heart-fill text-danger shadow-md"></i> by <a href="https://www.instagram.com/k_zundera/" class="text-white fw-bold text-decoration-none">Suken</a></p>
+    </footer>
+  </section>
+  <!-- Akhir Footer -->
+
+  <!-- Function Submit Contact Form -->
+  <script>
+
+    const linkActive = document.querySelectorAll(".nav-link");  
+    linkActive.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        linkActive.forEach((link) => link.classList.remove("active"));
+        e.target.classList.add("active");
+      });
+    });
+
+    const scriptURL = "https://script.google.com/macros/s/AKfycbwxXDUO-Mh4YoDmdjJZpvqHPdeRYptoaWUljLqTyQ9xrFeEiHLeFHI9ZiIjZ-ePQSXL/exec";
+    const form = document.forms["zundera-contact-form"];
+    const btnKirim = document.querySelector(".btn-kirim");
+    const btnLoading = document.querySelector(".btn-loading");
+    myAlert = document.querySelector(".my-alert");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+      btnLoading.classList.toggle("d-none");
+      btnKirim.classList.toggle("d-none");
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+      .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+        myAlert.classList.toggle("d-none");
+            // reset formnya
+        form.reset();
+        console.log("Success!", response);
+      })
+      .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+  <!-- Function Akhir Submit Contact Form -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html
