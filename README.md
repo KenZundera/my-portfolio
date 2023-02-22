@@ -1,4 +1,4 @@
-# my-portfolio
+# Portfolio Pribadi
 ### Portfolio berupa website yang berisi :
 - Foto Profil.
 - Perkenalan Singkat.
